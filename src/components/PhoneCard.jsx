@@ -14,7 +14,7 @@ const PhoneCard = ({ image, color, icon, textColor }) => {
           <div className={` bg-${color}  w-12 h-12 -mt-10 p-4 md:w-16 md:h-16 md:-mt-16 md:p-5 flex justify-center items-center rounded-full`}>
             <img className=' w-8 border-none' src={icon} alt='calendar' />
           </div>
-          <h5 className={` ${textColor} mb-3 mt-5 text-2xl leading-8`}>Focus mode</h5>
+          <h4 className={` ${textColor} mb-3 mt-5 text-2xl leading-8`}>Focus mode</h4>
           <p className=' h-auto overflow-hidden max-w-full text-base leading-5 pt-0 pb-3'>Lorem sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
         </div>
       </div>

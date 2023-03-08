@@ -2,8 +2,8 @@ const Faq = () => {
   return (
     <section className=' bg-neutral-200 py-10 md:py-14 w-full mx-auto px-4'>
       <div className=' ml-0 text-left mr-auto mb-10 lg:max-w-7xl lg:mx-auto '>
-        <h2 className=' my-2 text-3xl font-semibold'>FAQ</h2>
-        <h5 className=' my-2 text-base leading-5 font-normal'>Some questions & some answers</h5>
+        <h3 className=' my-2 text-3xl font-semibold'>FAQ</h3>
+        <h4 className=' my-2 text-base leading-5 font-normal'>Some questions & some answers</h4>
       </div>
       <div className=' grid grid-cols-1 justify-between justify-items-start gap-4 lg:grid-cols-2 lg:max-w-7xl mx-auto'>
         <div>

@@ -17,8 +17,8 @@ const Features = () => {
     <section id='features' className=' bg-secondary text-primary py-10 relative overflow-hidden lg:py-24'>
       <div className=' relative w-full max-w-7xl mx-auto px-4'>
         <div className=' max-w-none mx-auto mb-10 text-center lg:max-w-xl animate-appearAnimation'>
-          <h4 className=' opacity-80 text-sm font-semibold uppercase'>Features</h4>
-          <h2 className=' my-3 text-3xl font-semibold'>The latest & greatest in <br /> phone photography</h2>
+          <h2 className=' opacity-80 text-sm font-semibold uppercase'>Features</h2>
+          <h3 className=' my-3 text-3xl font-semibold'>The latest & greatest in <br /> phone photography</h3>
         </div>
         <div className=' grid auto-cols-fr gap-x-4 gap-y-4 grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           <PhoneCard image={ScreenShot2} icon={CalendarIcon} color='blue-500' textColor='text-blue-500' />

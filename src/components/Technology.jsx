@@ -9,8 +9,8 @@ const Technology = () => {
       <section className=' py-10 px-4 md:py-14 overflow-hidden relative z-10 w-full max-w-7xl mx-auto lg:py-24'>
         <div className=' grid grid-cols-1 gap-4 md:grid-cols-2 '>
           <div className=' row-span-2 col-span-1 self-center lg:max-w-md justify-self-center animate-[appear_1s_linear_0s_1_normal_both]'>
-            <h4 className=' text-sm opacity-80 leading-5 font-semibold tracking-widest uppercase'>Technology</h4>
-            <h2 className=' my-3 text-3xl leading-9 font-semibold'>Use H(app) y to give your digital photos some pop.</h2>
+            <h3 className=' text-sm opacity-80 leading-5 font-semibold tracking-widest uppercase'>Technology</h3>
+            <h4 className=' my-3 text-3xl leading-9 font-semibold'>Use H(app) y to give your digital photos some pop.</h4>
             <p className=' mt-0 mb-3 text-gray-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis odit numquam recusandae officia culpa ratione atque labore quas molestiae, nam quis assumenda commodi consectetur sunt nobis veniam, eius laudantium accusantium!</p>
           </div>
           <div className=' px-7 md:px-12 lg:px-24 animate-[appear_1s_linear_.5s_1_normal_both]'>

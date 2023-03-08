@@ -9,8 +9,8 @@ const DarkMode = () => {
     <section className=' bg-secondary text-primary relative overflow-hidden py-10 md:py-14 px-4 mx-auto w-full z-10  lg:py-24'>
       <div className=' mb-10 mx-auto text-center max-w-7xl  lg:max-w-xl animate-[appear_1s_linear_0s_1_normal_both]'>
 
-        <h4 className=' opacity-80 text-sm font-semibold tracking-widest uppercase'>Dark Mode</h4>
-        <h2 className=' my-2 text-3xl font-semibold'>Also available in dark.</h2>
+        <h3 className=' opacity-80 text-sm font-semibold tracking-widest uppercase'>Dark Mode</h3>
+        <h4 className=' my-2 text-3xl font-semibold'>Also available in dark.</h4>
         <p className=' my-2 text-lg leading-6 font-medium'>Don't get blinded when using the H(app)y app at night, just turn off the lights. Lorem ipsum dolor sit amet.</p>
 
         <div className=' flex flex-col-reverse overflow-hidden relative'>
