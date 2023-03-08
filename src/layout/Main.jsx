@@ -3,6 +3,7 @@ import Features from '../components/Features'
 import Statistics from '../components/Statistics'
 import Technology from '../components/Technology'
 import DarkMode from '../components/DarkMode'
+import Pricing from '../components/Pricing'
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
       <Statistics />
       <Technology />
       <DarkMode />
+      <Pricing />
     </main>
   )
 }
