@@ -10,6 +10,9 @@ module.exports = {
       },
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif']
+      },
+      fontSize: {
+        num: ['96px', '96px']
       }
     }
   },
