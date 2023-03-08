@@ -14,45 +14,45 @@ const Pricing = () => {
         </p>
       </div>
       <div className=' grid grid-cols-1 justify-between gap-4 md:grid-cols-3'>
-        <article className=' w-full overflow-hidden rounded-3xl py-5 px-10 text-center text-blue-500 opacity-100 '>
+        <article className=' w-full overflow-hidden rounded-3xl py-5 px-10 text-center text-[#0273E3] opacity-100 '>
           <h3 className=' my-2 text-lg font-medium leading-6'>Standard</h3>
           <div className=' mb-2 flex flex-col items-center justify-center'>
-            <p className=' text-num font-semibold tracking-tighter lg:text-9xl'>
+            <p className=' text-num font-semibold tracking-[-8px] lg:text-9xl'>
               $9
             </p>
-            <p className=' text-sm font-semibold uppercase tracking-widest text-secondary opacity-80'>
+            <p className=' text-sm font-semibold uppercase tracking-[2px] text-secondary opacity-80'>
               Monthly
             </p>
           </div>
-          <button className=' mx-1 my-2 cursor-pointer rounded bg-blue-500 px-6 py-3 text-sm uppercase tracking-widest text-primary'>
+          <button className=' mx-1 my-2 cursor-pointer rounded bg-[#0273E3] px-6 py-3 text-sm uppercase tracking-[2px] text-primary'>
             BUY NOW
           </button>
         </article>
-        <article className=' w-full overflow-hidden rounded-3xl py-5 px-10 text-center text-orange-600 opacity-100 '>
+        <article className=' w-full overflow-hidden rounded-3xl py-5 px-10 text-center text-[#e01d1d] opacity-100 '>
           <h3 className=' my-3 text-lg font-medium leading-6'>Premium</h3>
           <div className=' mb-2 flex flex-col items-center justify-center'>
-            <p className=' text-num font-semibold tracking-tighter lg:text-9xl'>
+            <p className=' text-num font-semibold tracking-[-8px] lg:text-9xl'>
               $99
             </p>
-            <p className=' text-sm font-semibold uppercase tracking-widest text-secondary opacity-80'>
+            <p className=' text-sm font-semibold uppercase tracking-[2px] text-secondary opacity-80'>
               Anually
             </p>
           </div>
-          <button className=' mx-1 my-2 cursor-pointer rounded bg-orange-600 px-6 py-3 text-sm uppercase tracking-widest text-primary'>
+          <button className=' mx-1 my-2 cursor-pointer rounded bg-[#e01d1d] px-6 py-3 text-sm uppercase tracking-[2px] text-primary'>
             BUY NOW
           </button>
         </article>
-        <article className=' w-full overflow-hidden rounded-3xl py-5 px-10 text-center text-yellow-500 opacity-100 '>
+        <article className=' w-full overflow-hidden rounded-3xl py-5 px-10 text-center text-[#B36200] opacity-100 '>
           <h3 className=' my-3 text-lg font-medium leading-6'>Lifetime</h3>
           <div className=' mb-2 flex flex-col items-center justify-center'>
-            <p className=' text-num font-semibold tracking-tighter lg:text-9xl'>
+            <p className=' text-num font-semibold tracking-[-8px] lg:text-9xl'>
               $149
             </p>
-            <p className=' text-sm font-semibold uppercase tracking-widest text-secondary opacity-80'>
+            <p className=' text-sm font-semibold uppercase tracking-[2px] text-secondary opacity-80'>
               Up front
             </p>
           </div>
-          <button className=' mx-1 my-2 cursor-pointer rounded bg-yellow-500 px-6 py-3 text-sm uppercase tracking-widest text-primary'>
+          <button className=' mx-1 my-2 cursor-pointer rounded bg-[#B36200] px-6 py-3 text-sm uppercase tracking-[2px] text-primary'>
             BUY NOW
           </button>
         </article>

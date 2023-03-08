@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </div>
         <div className=' row-span-1 col-span-2 mt-2'>
-          <p className=' text-gray-400'>Powered by
+          <p className=' text-[#757575]'>Powered by
             <a className=' text-gray-600 underline' href='https://webflow.com/'> Webflow</a>
             . All rights reserved by Happy Apps, Inc.
             <a className=' text-gray-600 underline' href='https://webflow.com/'> Licensing</a>.

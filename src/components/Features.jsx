@@ -22,7 +22,7 @@ const Features = () => {
         </div>
         <div className=' grid auto-cols-fr gap-x-4 gap-y-4 grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           <PhoneCard image={ScreenShot2} icon={CalendarIcon} text='Calendar View' color='bg-[#0278ed]' textColor='text-[#0278ed]' />
-          <PhoneCard image={ScreenShot3} icon={ListIcon} text='Lists' color='bg-[#ff5437]' textColor='text-[#ff5437]' />
+          <PhoneCard image={ScreenShot3} icon={ListIcon} text='Lists' color='bg-[#e01d1d]' textColor='text-[#e01d1d]' />
           <PhoneCard image={ScreenShot4} icon={VariedIcon} text='Varied type' color='bg-[#DB7900]' textColor='text-[#DB7900]' />
           <PhoneCard image={ScreenShot} icon={SplitIcon} text='Split-screen' color='bg-[#e738ce]' textColor='text-[#e738ce]' />
           <PhoneCard image={ScreenShot5} icon={UploadIcon} text='Uploads' color='bg-[#00A2B8]' textColor='text-[#00A2B8]' />
