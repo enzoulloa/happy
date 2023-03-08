@@ -5,7 +5,7 @@ import screenShot from '../assets/images/HappyScreenshot-500.jpeg'
 
 const Happy = () => {
   return (
-    <section className=' py-10 overflow-hidden relative lg:py-24 px-4 xl:max-w-7xl xl:mx-auto'>
+    <section id='happy' className=' py-10 overflow-hidden relative lg:py-24 px-4 xl:max-w-7xl xl:mx-auto'>
       <div className=' h-24' />
       <div className=' grid grid-cols-1 auto-cols-fr md:gap-4 md:grid-cols-2 lg:grid-cols-2'>
 

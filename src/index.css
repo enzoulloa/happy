@@ -9,3 +9,7 @@
     color: #222;
   }
 }
+
+:root {
+  @apply scroll-smooth;
+}
