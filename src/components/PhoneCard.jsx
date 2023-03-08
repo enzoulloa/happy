@@ -1,7 +1,7 @@
 import phoneOverlay from '../assets/phone/phoneOverlay.png'
 import PhoneHardware from '../assets/phone/phoneHardware.png'
 
-const PhoneCard = ({ image, color, icon, textColor }) => {
+const PhoneCard = ({ image, color, icon, textColor, text }) => {
   return (
     <article className='py-5 relative overflow-hidden w-auto rounded-2xl bg-primary text-secondary animate-[appear_1.8s_linear_2s_1_normal_both]'>
       <div>
@@ -11,10 +11,10 @@ const PhoneCard = ({ image, color, icon, textColor }) => {
           <img className='absolute left-0 top-0 right-0 bottom-0 h-[93.4%] m-auto z-20' src={image} alt='Phone' />
         </div>
         <div className=' p-4 md:p-7 absolute left-0 top-auto right-0 bottom-0 flex h-auto flex-col justify-center items-center rounded-br-2xl rounded-bl-2xl shadow-lg text-center bg-primary z-30'>
-          <div className={` bg-${color}  w-12 h-12 -mt-10 p-4 md:w-16 md:h-16 md:-mt-16 md:p-5 flex justify-center items-center rounded-full`}>
+          <div className={` ${color}  w-12 h-12 -mt-10 p-4 md:w-16 md:h-16 md:-mt-16 md:p-5 flex justify-center items-center rounded-full`}>
             <img className=' w-8 border-none' src={icon} alt='calendar' />
           </div>
-          <h4 className={` ${textColor} mb-3 mt-5 text-2xl leading-8`}>Focus mode</h4>
+          <h4 className={` ${textColor} mb-3 mt-5 text-2xl leading-8 font-medium`}>{text}</h4>
           <p className=' h-auto overflow-hidden max-w-full text-base leading-5 pt-0 pb-3'>Lorem sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
         </div>
       </div>

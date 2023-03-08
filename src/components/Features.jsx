@@ -21,12 +21,12 @@ const Features = () => {
           <h3 className=' my-3 text-3xl font-semibold'>The latest & greatest in <br /> phone photography</h3>
         </div>
         <div className=' grid auto-cols-fr gap-x-4 gap-y-4 grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-          <PhoneCard image={ScreenShot2} icon={CalendarIcon} color='blue-500' textColor='text-blue-500' />
-          <PhoneCard image={ScreenShot3} icon={ListIcon} color='orange-500' textColor='text-orange-500' />
-          <PhoneCard image={ScreenShot4} icon={VariedIcon} color='yellow-500' textColor='text-yellow-500' />
-          <PhoneCard image={ScreenShot} icon={SplitIcon} color='fuchsia-500' textColor='text-fuchsia-500' />
-          <PhoneCard image={ScreenShot5} icon={UploadIcon} color='cyan-400' textColor='text-cyan-400' />
-          <PhoneCard image={ScreenShot6} icon={FocusIcon} color='violet-500' textColor='text-violet-500' />
+          <PhoneCard image={ScreenShot2} icon={CalendarIcon} text='Calendar View' color='bg-[#0278ed]' textColor='text-[#0278ed]' />
+          <PhoneCard image={ScreenShot3} icon={ListIcon} text='Lists' color='bg-[#ff5437]' textColor='text-[#ff5437]' />
+          <PhoneCard image={ScreenShot4} icon={VariedIcon} text='Varied type' color='bg-[#DB7900]' textColor='text-[#DB7900]' />
+          <PhoneCard image={ScreenShot} icon={SplitIcon} text='Split-screen' color='bg-[#e738ce]' textColor='text-[#e738ce]' />
+          <PhoneCard image={ScreenShot5} icon={UploadIcon} text='Uploads' color='bg-[#00A2B8]' textColor='text-[#00A2B8]' />
+          <PhoneCard image={ScreenShot6} icon={FocusIcon} text='Focus mode' color='bg-[#b25df8]' textColor='text-[#b25df8]' />
         </div>
       </div>
     </section>
