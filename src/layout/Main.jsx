@@ -6,6 +6,7 @@ import DarkMode from '../components/DarkMode'
 import Pricing from '../components/Pricing'
 import Testimonials from '../components/Testimonials'
 import Download from '../components/Download'
+import Faq from '../components/Faq'
 
 const Main = () => {
   return (
@@ -18,6 +19,7 @@ const Main = () => {
       <Pricing />
       <Testimonials />
       <Download />
+      <Faq />
     </main>
   )
 }
