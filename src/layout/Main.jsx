@@ -1,7 +1,9 @@
+import Happy from '../components/Happy'
+
 const Main = () => {
   return (
     <>
-      <div>Main</div>
+      <Happy />
     </>
   )
 }
