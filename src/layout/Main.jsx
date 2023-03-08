@@ -1,6 +1,7 @@
 import Happy from '../components/Happy'
 import Features from '../components/Features'
 import Statistics from '../components/Statistics'
+import Technology from '../components/Technology'
 
 const Main = () => {
   return (
@@ -8,6 +9,7 @@ const Main = () => {
       <Happy />
       <Features />
       <Statistics />
+      <Technology />
     </main>
   )
 }
