@@ -27,7 +27,7 @@ const DarkMode = () => {
 
   return (
     <section className=' bg-secondary text-primary relative overflow-hidden py-10 md:py-14 px-4 mx-auto w-full z-10  lg:py-24'>
-      <div ref={ref1} className=' mb-10 mx-auto text-center max-w-7xl  lg:max-w-xl transition duration-300 ease-in-out opacity-0'>
+      <div ref={ref1} className=' mb-10 mx-auto text-center max-w-7xl will lg:max-w-xl transition duration-300 ease-in-out opacity-0 will-change-[opacity]'>
 
         <h3 className=' opacity-80 text-sm font-semibold tracking-widest uppercase'>Dark Mode</h3>
         <h4 className=' my-2 text-3xl font-semibold'>Also available in dark.</h4>

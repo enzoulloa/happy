@@ -24,9 +24,9 @@ const Features = () => {
   }
 
   return (
-    <section ref={ref1} id='features' className=' bg-secondary text-primary py-10 relative overflow-hidden lg:py-24 transition duration-300 ease-in-out opacity-0'>
+    <section ref={ref1} id='features' className=' bg-secondary text-primary py-10 relative overflow-hidden lg:py-24  transition duration-300 ease-in-out opacity-0 will-change-[opacity]'>
       <div className=' relative w-full max-w-7xl mx-auto px-4'>
-        <div className=' max-w-none mx-auto mb-10 text-center lg:max-w-xl animate-appearAnimation'>
+        <div className=' max-w-none mx-auto mb-10 text-center lg:max-w-xl'>
           <h2 className=' opacity-80 text-sm font-semibold uppercase'>Features</h2>
           <h3 className=' my-3 text-3xl font-semibold'>The latest & greatest in <br /> phone photography</h3>
         </div>

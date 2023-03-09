@@ -12,7 +12,7 @@ const Download = () => {
   }
 
   return (
-    <section ref={ref1} className=' relative z-10 mx-auto mb-9 w-full max-w-7xl overflow-hidden py-10 px-4 text-center md:py-14  lg:max-w-xl transition duration-300 ease-in-out opacity-0'>
+    <section ref={ref1} className=' relative z-10 mx-auto mb-9 w-full max-w-7xl overflow-hidden py-10 px-4 text-center md:py-14  lg:max-w-xl will-change-[opacity] transition duration-300 ease-in-out opacity-0'>
       <h3 className=' text-sm font-semibold uppercase leading-5 tracking-widest opacity-80'>
         Download
       </h3>

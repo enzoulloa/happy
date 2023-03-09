@@ -13,7 +13,7 @@ const PhoneCard = ({ image, color, icon, textColor, text }) => {
   }
 
   return (
-    <article ref={ref2} className='py-5 relative overflow-hidden w-auto rounded-2xl bg-primary text-secondary transition duration-500 ease-in-out opacity-0'>
+    <article ref={ref2} className='py-5 relative overflow-hidden w-auto rounded-2xl bg-primary text-secondary transition duration-500 ease-in-out opacity-0 will-change-[opacity] '>
       <div>
         <div className='  w-3/5 mx-auto relative flex justify-center items-center'>
           <img className='  absolute left-0 top-0 right-0 bottom-0 w-full m-auto z-30' src={phoneOverlay} alt='Phone' loading='lazy' />

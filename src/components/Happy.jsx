@@ -25,7 +25,7 @@ const Happy = () => {
     <section id='happy' className=' py-10 overflow-hidden relative lg:py-24 px-4 xl:max-w-7xl xl:mx-auto'>
       <div className=' h-24' />
       <div className=' grid grid-cols-1 auto-cols-fr md:gap-4 md:grid-cols-2 lg:grid-cols-2 '>
-        <div ref={ref1} className='  row-span-2 col-span-1 relative z-10 w-full max-w-7xl mx-auto px-4 justify-self-center xl:self-center xl:max-w-md transition duration-300 ease-in-out opacity-0'>
+        <div ref={ref1} className='  row-span-2 col-span-1 relative z-10 w-full max-w-7xl mx-auto px-4 justify-self-center xl:self-center xl:max-w-md transition duration-300 ease-in-out opacity-0 will-change-[opacity]'>
           <img src={mainLogo} alt='Happy' loading='eager' />
           <h1 className=' font-bold text-5xl mt-6'>The future of digital photos.</h1>
           <p className=' my-4'>The H(app)y app is the latest & greatest in phone photography. It's available in the App Store right now. Go check it out!</p>
