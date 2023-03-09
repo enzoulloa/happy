@@ -10,7 +10,7 @@ import Faq from '../components/Faq'
 
 const Main = () => {
   return (
-    <main>
+    <>
       <Happy />
       <Features />
       <Statistics />
@@ -20,7 +20,7 @@ const Main = () => {
       <Testimonials />
       <Download />
       <Faq />
-    </main>
+    </>
   )
 }
 
