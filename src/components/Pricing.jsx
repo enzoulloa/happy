@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <section className=' relative z-10 mx-auto w-full max-w-7xl overflow-hidden py-10 px-4 md:py-14 lg:py-24'>
+    <section id='pricing' className=' relative z-10 mx-auto w-full max-w-7xl overflow-hidden py-10 px-4 md:py-14 lg:py-24'>
       <div className=' mx-auto mb-10 max-w-none text-center lg:max-w-xl animate-[appear_1s_linear_0s_1_normal_both]'>
         <h3 className=' text-sm font-semibold uppercase leading-5 tracking-widest opacity-80'>
           Pricing

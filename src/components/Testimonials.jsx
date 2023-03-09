@@ -4,7 +4,7 @@ import michael from '../assets/profileImages/MichaelScott.jpg'
 
 const Testimonials = () => {
   return (
-    <section className=' relative z-10 mx-auto w-full max-w-7xl overflow-hidden py-10 px-4 text-center md:py-14 '>
+    <section id='testimonials' className=' relative z-10 mx-auto w-full max-w-7xl overflow-hidden py-10 px-4 text-center md:py-14 '>
       <div className=' mb-10'>
         <h4 className=' text-sm font-semibold uppercase leading-5 tracking-widest opacity-80'>
           Testimonials

@@ -2,9 +2,9 @@ import navLogo from '../assets/nav.svg'
 
 const DesktopNavbar = () => {
   return (
-    <nav className=' fixed top-0 left-0 right-0 bottom-auto z-50 m-auto hidden h-24 w-full items-center justify-between bg-primary p-8 shadow-xl lg:flex '>
+    <nav className=' fixed top-0 left-0 right-0 bottom-auto z-50 w-full m-auto hidden h-24 items-center justify-between bg-primary p-8 shadow-xl lg:flex '>
       <div className=' fixed top-0 left-0 right-0 bottom-auto z-50 max-w-7xl m-auto hidden h-24 w-full items-center justify-between bg-primary p-8 shadow-xl lg:flex'>
-        <a className='w-32 align-middle transition-all ease-in duration-200' href=''>
+        <a className='w-32 align-middle transition-all ease-in duration-200' href='#happy'>
           <img src={navLogo} alt='navLogo' />
         </a>
         <div className=' flex h-full w-auto items-center '>
