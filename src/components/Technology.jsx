@@ -16,9 +16,9 @@ const Technology = () => {
           <div className=' px-7 md:px-12 lg:px-24 animate-[appear_1s_linear_.5s_1_normal_both]'>
             <div className=' relative flex justify-center items-center w-full -mb-52 row-span-2 col-span-1 self-center justify-self-center lg:self-start lg:-mb-72'>
 
-              <img className=' absolute left-0 top-0 right-0 bottom-0 w-full m-auto z-30' src={phoneOverlay} alt='Phone' />
-              <img className=' w-full max-w-max align-middle z-10 inline-block' src={phoneHardware} alt='Phone' />
-              <img className=' absolute left-0 top-0 right-0 bottom-0 h-[93.4%] align-middle m-auto z-20 inline-block' src={screenShot3} alt='Phone' />
+              <img className=' absolute left-0 top-0 right-0 bottom-0 w-full m-auto z-30' src={phoneOverlay} alt='Phone' loading='lazy' />
+              <img className=' w-full max-w-max align-middle z-10 inline-block' src={phoneHardware} alt='Phone' loading='lazy' />
+              <img className=' absolute left-0 top-0 right-0 bottom-0 h-[93.4%] align-middle m-auto z-20 inline-block' src={screenShot3} alt='Phone' loading='lazy' />
             </div>
           </div>
         </div>
@@ -33,9 +33,9 @@ const Technology = () => {
           </div>
           <div className=' px-7 md:px-12 lg:px-24 animate-[appear_1s_linear_0s_1_normal_both]'>
             <div className=' relative flex justify-center items-center w-full -mb-52 row-span-2 col-span-1 self-center justify-self-center lg:self-start lg:-mb-72'>
-              <img className=' absolute left-0 top-0 right-0 bottom-0 w-full m-auto z-30' src={phoneOverlay} alt='Phone' />
-              <img className=' w-full max-w-max align-middle z-10 inline-block' src={phoneHardware} alt='Phone' />
-              <img className=' absolute left-0 top-0 right-0 bottom-0 h-[93.4%] align-middle m-auto z-20 inline-block' src={screenShot2} alt='Phone' />
+              <img className=' absolute left-0 top-0 right-0 bottom-0 w-full m-auto z-30' src={phoneOverlay} alt='Phone' loading='lazy' />
+              <img className=' w-full max-w-max align-middle z-10 inline-block' src={phoneHardware} alt='Phone' loading='lazy' />
+              <img className=' absolute left-0 top-0 right-0 bottom-0 h-[93.4%] align-middle m-auto z-20 inline-block' src={screenShot2} alt='Phone' loading='lazy' />
             </div>
           </div>
         </div>

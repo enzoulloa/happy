@@ -17,11 +17,11 @@ const DarkMode = () => {
 
           <div className=' flex justify-center items-center pt-5 border-t-2 border-primary relative z-30 bg-secondary '>
             <button className=' bg-transparent opacity-100 m-2 p-2 lg:m-3 lg:p-3 rounded-xl relative align-top cursor-pointer flex flex-col justify-center items-center'>
-              <img className=' h-6 mb-1 border-none' src={sun} alt='Sun' />
+              <img className=' h-6 mb-1 border-none' src={sun} alt='Sun' loading='lazy' />
               <p className=' opacity-80 text-sm font-semibold tracking-widest uppercase'>Light mode</p>
             </button>
             <button className=' bg-transparent opacity-100 m-2 p-2 rounded-xl relative align-top cursor-pointer flex flex-col justify-center items-center'>
-              <img className=' h-6 mb-1 border-none' src={moon} alt='Sun' />
+              <img className=' h-6 mb-1 border-none' src={moon} alt='Sun' loading='lazy' />
               <p className=' opacity-80 text-sm font-semibold tracking-widest uppercase'>Dark Mode</p>
             </button>
 
@@ -30,9 +30,9 @@ const DarkMode = () => {
 
             <div className=' relative overflow-hidden mt-5 px-7 -mb-48 md:-mb-80 md:px-24 lg:px-24'>
               <div className=' relative -mb-8 w-full flex justify-center items-center md:-mb-28 lg:-mb-0'>
-                <img className=' absolute left-0 top-0 right-0 bottom-0 w-full m-auto z-30' src={phoneOverlay} alt='Phone' />
-                <img className=' w-full max-w-max align-middle z-10 inline-block' src={phoneHardware} alt='Phone' />
-                <img className=' absolute left-0 top-0 right-0 bottom-0 h-[93.4%] align-middle m-auto z-20 inline-block' src={screenShot} alt='Phone' />
+                <img className=' absolute left-0 top-0 right-0 bottom-0 w-full m-auto z-30' src={phoneOverlay} alt='Phone' loading='lazy' />
+                <img className=' w-full max-w-max align-middle z-10 inline-block' src={phoneHardware} alt='Phone' loading='lazy' />
+                <img className=' absolute left-0 top-0 right-0 bottom-0 h-[93.4%] align-middle m-auto z-20 inline-block' src={screenShot} alt='Phone' loading='lazy' />
 
               </div>
             </div>

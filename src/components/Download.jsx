@@ -18,6 +18,7 @@ const Download = () => {
           className=' w-44 border-none'
           src={appStore}
           alt='App Store'
+          loading='lazy'
         />
       </button>
     </section>

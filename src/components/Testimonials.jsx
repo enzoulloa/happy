@@ -27,6 +27,7 @@ const Testimonials = () => {
               className=' h-12 w-12 overflow-hidden rounded-full border-2 border-solid border-slate-200 object-cover'
               src={pam}
               alt='Pam Beesly'
+              loading='lazy'
             />
             <div className=' pl-2'>
               <p className=' text-base font-medium leading-5'>Pam Beesly</p>
@@ -44,6 +45,7 @@ const Testimonials = () => {
               className=' h-12 w-12 overflow-hidden rounded-full border-2 border-solid border-slate-200 object-cover'
               src={michael}
               alt='Michael Scott'
+              loading='lazy'
             />
             <div className=' pl-2'>
               <p className=' text-base font-medium leading-5'>Michael Scott</p>
@@ -61,6 +63,7 @@ const Testimonials = () => {
               className=' h-12 w-12 overflow-hidden rounded-full border-2 border-solid border-slate-200 object-cover'
               src={angela}
               alt='Angels Schrute'
+              loading='lazy'
             />
             <div className=' pl-2'>
               <p className=' text-base font-medium leading-5'>Angels Schrute</p>
