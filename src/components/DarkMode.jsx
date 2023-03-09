@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
+import useObserver from '../hooks/useObserver'
 import phoneOverlay from '../assets/phone/phoneOverlay.webp'
 import phoneHardware from '../assets/phone/phoneHardware.webp'
 import screenShot from '../assets/images/HappyScreenshot3p-1080.webp'
@@ -8,6 +9,13 @@ import moon from '../assets/icons/MoonIcon.svg'
 
 const DarkMode = () => {
   const [darkMode, setDarkMode] = useState(false)
+  const ref1 = useRef()
+  const observer1 = useObserver(ref1)
+
+  if (observer1 === true) {
+    ref1.current.classList.remove('opacity-0')
+    ref1.current.classList.add('opacity-100')
+  }
 
   const handleSetDarkMode = () => {
     setDarkMode(true)
@@ -19,7 +27,7 @@ const DarkMode = () => {
 
   return (
     <section className=' bg-secondary text-primary relative overflow-hidden py-10 md:py-14 px-4 mx-auto w-full z-10  lg:py-24'>
-      <div className=' mb-10 mx-auto text-center max-w-7xl  lg:max-w-xl animate-[appear_1s_linear_0s_1_normal_both]'>
+      <div ref={ref1} className=' mb-10 mx-auto text-center max-w-7xl  lg:max-w-xl transition duration-300 ease-in-out opacity-0'>
 
         <h3 className=' opacity-80 text-sm font-semibold tracking-widest uppercase'>Dark Mode</h3>
         <h4 className=' my-2 text-3xl font-semibold'>Also available in dark.</h4>

@@ -1,9 +1,19 @@
+import { useRef } from 'react'
+import useObserver from '../hooks/useObserver'
 import phoneOverlay from '../assets/phone/phoneOverlay.webp'
 import PhoneHardware from '../assets/phone/phoneHardware.webp'
 
 const PhoneCard = ({ image, color, icon, textColor, text }) => {
+  const ref2 = useRef()
+  const observer2 = useObserver(ref2)
+
+  if (observer2 === true) {
+    ref2.current.classList.remove('opacity-0')
+    ref2.current.classList.add('opacity-100')
+  }
+
   return (
-    <article className='py-5 relative overflow-hidden w-auto rounded-2xl bg-primary text-secondary animate-[appear_1.8s_linear_2s_1_normal_both]'>
+    <article ref={ref2} className='py-5 relative overflow-hidden w-auto rounded-2xl bg-primary text-secondary transition duration-500 ease-in-out opacity-0'>
       <div>
         <div className='  w-3/5 mx-auto relative flex justify-center items-center'>
           <img className='  absolute left-0 top-0 right-0 bottom-0 w-full m-auto z-30' src={phoneOverlay} alt='Phone' loading='lazy' />

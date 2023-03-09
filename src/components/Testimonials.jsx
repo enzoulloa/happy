@@ -1,10 +1,20 @@
+import { useRef } from 'react'
+import useObserver from '../hooks/useObserver'
 import pam from '../assets/profileImages/PamBeesly.jpg'
 import angela from '../assets/profileImages/AngelaSchrute.jpg'
 import michael from '../assets/profileImages/MichaelScott.jpg'
 
 const Testimonials = () => {
+  const ref1 = useRef()
+  const observer1 = useObserver(ref1)
+
+  if (observer1 === true) {
+    ref1.current.classList.remove('opacity-0')
+    ref1.current.classList.add('opacity-100')
+  }
+
   return (
-    <section id='testimonials' className=' relative z-10 mx-auto w-full max-w-7xl overflow-hidden py-10 px-4 text-center md:py-14 '>
+    <section ref={ref1} id='testimonials' className=' relative z-10 mx-auto w-full max-w-7xl overflow-hidden py-10 px-4 text-center md:py-14 transition duration-300 ease-in-out opacity-0'>
       <div className=' mb-10'>
         <h4 className=' text-sm font-semibold uppercase leading-5 tracking-widest opacity-80'>
           Testimonials

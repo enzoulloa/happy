@@ -1,12 +1,29 @@
+import { useRef } from 'react'
+import useObserver from '../hooks/useObserver'
 import phoneOverlay from '../assets/phone/phoneOverlay.webp'
 import phoneHardware from '../assets/phone/phoneHardware.webp'
 import screenShot3 from '../assets/images/HappyScreenshot3-500.webp'
 import screenShot2 from '../assets/images/HappyScreenshot-500.webp'
 
 const Technology = () => {
+  const ref1 = useRef()
+  const observer1 = useObserver(ref1)
+  const ref2 = useRef()
+  const observer2 = useObserver(ref1)
+
+  if (observer1 === true) {
+    ref1.current.classList.remove('opacity-0')
+    ref1.current.classList.add('opacity-100')
+  }
+
+  if (observer2 === true) {
+    ref2.current.classList.remove('opacity-0')
+    ref2.current.classList.add('opacity-100')
+  }
+
   return (
     <>
-      <section className=' py-10 px-4 md:py-14 overflow-hidden relative z-10 w-full max-w-7xl mx-auto lg:py-24'>
+      <section ref={ref1} className=' py-10 px-4 md:py-14 overflow-hidden relative z-10 w-full max-w-7xl mx-auto lg:py-24 transition duration-300 ease-in-out opacity-0'>
         <div className=' grid grid-cols-1 gap-4 md:grid-cols-2 '>
           <div className=' row-span-2 col-span-1 self-center lg:max-w-md justify-self-center animate-[appear_1s_linear_0s_1_normal_both]'>
             <h3 className=' text-sm opacity-80 leading-5 font-semibold tracking-widest uppercase'>Technology</h3>
@@ -23,7 +40,7 @@ const Technology = () => {
           </div>
         </div>
       </section>
-      <section className=' py-10 px-4 md:py-14 overflow-hidden relative z-10 w-full max-w-7xl mx-auto lg:py-24'>
+      <section ref={ref2} className=' py-10 px-4 md:py-14 overflow-hidden relative z-10 w-full max-w-7xl mx-auto lg:py-24 transition duration-300 ease-in-out opacity-0'>
         <div className=' grid grid-cols-1 gap-4 md:grid-cols-2 '>
 
           <div className=' row-span-2 col-span-1 self-center md:order-last lg:max-w-md justify-self-center animate-[appear_1s_linear_.5s_1_normal_both]'>

@@ -1,7 +1,18 @@
+import { useRef } from 'react'
+import useObserver from '../hooks/useObserver'
+
 const Pricing = () => {
+  const ref1 = useRef()
+  const observer1 = useObserver(ref1)
+
+  if (observer1 === true) {
+    ref1.current.classList.remove('opacity-0')
+    ref1.current.classList.add('opacity-100')
+  }
+
   return (
-    <section id='pricing' className=' relative z-10 mx-auto w-full max-w-7xl overflow-hidden py-10 px-4 md:py-14 lg:py-24'>
-      <div className=' mx-auto mb-10 max-w-none text-center lg:max-w-xl animate-[appear_1s_linear_0s_1_normal_both]'>
+    <section id='pricing' className=' relative z-10 mx-auto w-full max-w-7xl overflow-hidden py-10 px-4 md:py-14 lg:py-24 '>
+      <div ref={ref1} className=' mx-auto mb-10 max-w-none text-center lg:max-w-xl transition duration-300 ease-in-out opacity-0'>
         <h3 className=' text-sm font-semibold uppercase leading-5 tracking-widest opacity-80'>
           Pricing
         </h3>

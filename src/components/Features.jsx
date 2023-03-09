@@ -1,3 +1,5 @@
+import { useRef } from 'react'
+import useObserver from '../hooks/useObserver'
 import PhoneCard from './PhoneCard'
 import ScreenShot from '../assets/images/HappyScreenshot-500.webp'
 import ScreenShot2 from '../assets/images/HappyScreenshot2-500.webp'
@@ -13,14 +15,22 @@ import UploadIcon from '../assets/icons/HappyUploadIcon.svg'
 import VariedIcon from '../assets/icons/HappyVariedTypeIcon.svg'
 
 const Features = () => {
+  const ref1 = useRef()
+  const observer1 = useObserver(ref1)
+
+  if (observer1 === true) {
+    ref1.current.classList.remove('opacity-0')
+    ref1.current.classList.add('opacity-100')
+  }
+
   return (
-    <section id='features' className=' bg-secondary text-primary py-10 relative overflow-hidden lg:py-24'>
+    <section ref={ref1} id='features' className=' bg-secondary text-primary py-10 relative overflow-hidden lg:py-24 transition duration-300 ease-in-out opacity-0'>
       <div className=' relative w-full max-w-7xl mx-auto px-4'>
         <div className=' max-w-none mx-auto mb-10 text-center lg:max-w-xl animate-appearAnimation'>
           <h2 className=' opacity-80 text-sm font-semibold uppercase'>Features</h2>
           <h3 className=' my-3 text-3xl font-semibold'>The latest & greatest in <br /> phone photography</h3>
         </div>
-        <div className=' grid auto-cols-fr gap-x-4 gap-y-4 grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+        <div className=' grid auto-cols-fr gap-x-4 gap-y-4 grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
           <PhoneCard image={ScreenShot2} icon={CalendarIcon} text='Calendar View' color='bg-[#0278ed]' textColor='text-[#0278ed]' />
           <PhoneCard image={ScreenShot3} icon={ListIcon} text='Lists' color='bg-[#e01d1d]' textColor='text-[#e01d1d]' />
           <PhoneCard image={ScreenShot4} icon={VariedIcon} text='Varied type' color='bg-[#DB7900]' textColor='text-[#DB7900]' />
