@@ -14,8 +14,8 @@ const Happy = () => {
           <h1 className=' font-bold text-5xl mt-6'>The future of digital photos.</h1>
           <p className=' my-4'>The H(app)y app is the latest & greatest in phone photography. It's available in the App Store right now. Go check it out!</p>
           <div className=' flex text-center flex-col md:justify-center md:items-center  md:flex-row lg:justify-start '>
-            <a className=' bg-secondary text-primary w-36 py-3 px-6 rounded-md text-sm leading-4 tracking-widest my-2 mx-1 inline-block uppercase cursor-pointer text-center ' href='https://webflow.com/templates/html/happy-app-website-template' target='_blank' rel='noreferrer'>Download</a>
-            <a className=' bg-secondary text-primary w-36 py-3 px-6 rounded-md text-sm leading-4 tracking-widest my-2 mx-1 inline-block uppercase cursor-pointer text-center md:m-3' href='#features'>Read More</a>
+            <a className=' bg-secondary text-primary w-[146px] py-[11px] px-[25px] rounded-md text-sm leading-4 tracking-widest my-2 mx-1 inline-block uppercase cursor-pointer text-center ' href='https://webflow.com/templates/html/happy-app-website-template' target='_blank' rel='noreferrer'>Download</a>
+            <a className=' bg-secondary text-primary w-[146px] py-[11px] rounded-md text-sm leading-4 tracking-widest my-2 mx-1 inline-block uppercase cursor-pointer text-center md:m-3' href='#features'>Read More</a>
           </div>
         </div>
 
