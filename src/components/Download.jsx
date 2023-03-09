@@ -1,3 +1,5 @@
+import appStore from '../assets/AppStore.svg'
+
 const Download = () => {
   return (
     <section className=' relative z-10 mx-auto mb-9 w-full max-w-7xl overflow-hidden py-10 px-4 text-center md:py-14  lg:max-w-xl animate-[appear_1s_linear_0s_1_normal_both]'>
@@ -14,7 +16,7 @@ const Download = () => {
       <button className=' mt-4 inline-block max-w-full bg-transparent'>
         <img
           className=' w-44 border-none'
-          src='https://assets.website-files.com/60545d7f59ab6f793d28e25e/605b16253d84a1bdb441ee37_App%20Store%20Badge.svg'
+          src={appStore}
           alt='App Store'
         />
       </button>

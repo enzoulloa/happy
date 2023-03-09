@@ -1,7 +1,7 @@
 import mainLogo from '../assets/nav.svg'
-import phoneOverlay from '../assets/phone/phoneOverlay.png'
-import phoneHardware from '../assets/phone/phoneHardware.png'
-import screenShot from '../assets/images/HappyScreenshot-500.jpeg'
+import phoneOverlay from '../assets/phone/phoneOverlay.webp'
+import phoneHardware from '../assets/phone/phoneHardware.webp'
+import screenShot from '../assets/images/HappyScreenshot-500.webp'
 
 const Happy = () => {
   return (

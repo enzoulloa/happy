@@ -1,5 +1,5 @@
-import phoneOverlay from '../assets/phone/phoneOverlay.png'
-import PhoneHardware from '../assets/phone/phoneHardware.png'
+import phoneOverlay from '../assets/phone/phoneOverlay.webp'
+import PhoneHardware from '../assets/phone/phoneHardware.webp'
 
 const PhoneCard = ({ image, color, icon, textColor, text }) => {
   return (

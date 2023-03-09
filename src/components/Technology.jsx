@@ -1,7 +1,7 @@
-import phoneOverlay from '../assets/phone/phoneOverlay.png'
-import phoneHardware from '../assets/phone/phoneHardware.png'
-import screenShot3 from '../assets/images/HappyScreenshot3-500.jpeg'
-import screenShot2 from '../assets/images/HappyScreenshot-500.jpeg'
+import phoneOverlay from '../assets/phone/phoneOverlay.webp'
+import phoneHardware from '../assets/phone/phoneHardware.webp'
+import screenShot3 from '../assets/images/HappyScreenshot3-500.webp'
+import screenShot2 from '../assets/images/HappyScreenshot-500.webp'
 
 const Technology = () => {
   return (

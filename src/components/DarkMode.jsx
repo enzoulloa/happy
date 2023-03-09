@@ -1,6 +1,6 @@
-import phoneOverlay from '../assets/phone/phoneOverlay.png'
-import phoneHardware from '../assets/phone/phoneHardware.png'
-import screenShot from '../assets/images/HappyScreenshot3p-1080.jpeg'
+import phoneOverlay from '../assets/phone/phoneOverlay.webp'
+import phoneHardware from '../assets/phone/phoneHardware.webp'
+import screenShot from '../assets/images/HappyScreenshot3p-1080.webp'
 import sun from '../assets/icons/SunIcon.svg'
 import moon from '../assets/icons/MoonIcon.svg'
 
