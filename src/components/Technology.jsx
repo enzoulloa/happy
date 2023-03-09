@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import useObserver from '../hooks/useObserver'
-import phoneOverlay from '../assets/phone/phoneOverlay.webp'
-import phoneHardware from '../assets/phone/phoneHardware.webp'
+import phoneOverlay from '../assets/phone/PhoneOverlay.webp'
+import phoneHardware from '../assets/phone/PhoneHardware.webp'
 import screenShot3 from '../assets/images/HappyScreenshot3-500.webp'
 import screenShot2 from '../assets/images/HappyScreenshot-500.webp'
 

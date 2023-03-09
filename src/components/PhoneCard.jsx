@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import useObserver from '../hooks/useObserver'
-import phoneOverlay from '../assets/phone/phoneOverlay.webp'
-import PhoneHardware from '../assets/phone/phoneHardware.webp'
+import phoneOverlay from '../assets/phone/PhoneOverlay.webp'
+import PhoneHardware from '../assets/phone/PhoneHardware.webp'
 
 const PhoneCard = ({ image, color, icon, textColor, text }) => {
   const ref2 = useRef()

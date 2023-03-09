@@ -1,8 +1,8 @@
 import { useRef } from 'react'
 import useObserver from '../hooks/useObserver'
 import mainLogo from '../assets/nav.svg'
-import phoneOverlay from '../assets/phone/phoneOverlay.webp'
-import phoneHardware from '../assets/phone/phoneHardware.webp'
+import phoneOverlay from '../assets/phone/PhoneOverlay.webp'
+import phoneHardware from '../assets/phone/PhoneHardware.webp'
 import screenShot from '../assets/images/HappyScreenshot-500.webp'
 
 const Happy = () => {
