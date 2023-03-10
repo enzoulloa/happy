@@ -11,8 +11,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='w-full h-24 p-8 shadow-xl fixed z-50 bg-primary left-0 top-0 right-0 bottom-auto m-auto'>
-      <div className='lg:hidden flex justify-between items-center'>
+    <nav className=' w-full h-24 p-8 shadow-xl fixed z-50 bg-primary left-0 top-0 right-0 bottom-auto m-auto'>
+      <div className='lg:hidden flex justify-between items-center w-full'>
         <a className='w-32 align-middle transition ease-in duration-200 will-change-[opacity] ' href='#happy'><img src={navLogo} alt='navLogo' loading='eager' /></a>
         <button id='navButton' aria-label='navButton' className=' lg:hidden cursor-pointer' onClick={() => handleClick()}>
           <span className=' text-black'>
