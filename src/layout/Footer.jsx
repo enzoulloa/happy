@@ -5,7 +5,7 @@ import facebook from '../assets/icons/FacebookIcon.svg'
 
 const Footer = () => {
   return (
-    <footer className=' py-10 px-4  w-full max-w-7xl text-center'>
+    <footer className=' py-10 px-4  w-full max-w-7xl text-center mx-auto'>
       <div className=' grid grid-cols-2 text-center gap-4 mx-auto'>
         <div className=' row-span-1 col-span-2 mx-auto'>
           <img className=' w-32 ' src={happy} alt='HappyLogo' loading='lazy' />
